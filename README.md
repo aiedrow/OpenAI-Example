@@ -5,7 +5,7 @@ The OpenAI API Example is a code sample that demonstrates how to use the OpenAI 
 Overall, the OpenAI API Example is a useful resource for developers looking to integrate the OpenAI API into their applications and explore the capabilities of GPT-3. The second File of OpenAI Example generates Images from text.
 
 #
-#### Here's A list of Files and Folders while Also xplaining Their Usage in the code
+#### Here's A list of Files and Folders while Also explaining Their Usage in the code
 
 > assets/
 ##### This Folder Contains Header File & Configuration File.

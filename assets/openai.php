@@ -1,5 +1,10 @@
-<?php $a = "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"; $b = base64_encode($a); ?>
-var openaiKey = "<?php echo $b; ?>";
+<?php 
+
+$a = ""; // Enter Your OpenAI API Key 
+
+?>
+
+var openaiKey = "<?php echo $a; ?>";
 
 function openai_chat() {
   var prompt_text = "Human:"
@@ -12,7 +17,7 @@ function openai_chat() {
   xhr.open("POST", url);
 
   xhr.setRequestHeader("Content-Type", "application/json");
-  xhr.setRequestHeader("Authorization", "Bearer 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");
+  xhr.setRequestHeader("Authorization", "Bearer <?php echo $a; ?>");
 
   xhr.onreadystatechange = function () {
      if (xhr.readyState === 4) {
@@ -58,7 +63,7 @@ $.ajax({
   }),
   contentType: "application/json",
   headers: {
-    "Authorization": `Bearer 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`
+    "Authorization": `Bearer <?php echo $a; ?>`
   },
   success: function(data) {
         var chat = $('#openaiartresponse').html();

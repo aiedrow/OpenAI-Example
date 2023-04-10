@@ -4,14 +4,20 @@ The OpenAI API Example is a code sample that demonstrates how to use the OpenAI 
 
 Overall, the OpenAI API Example is a useful resource for developers looking to integrate the OpenAI API into their applications and explore the capabilities of GPT-3. The second File of OpenAI Example generates Images from text.
 
-- assets/
-This File Contains Header File & Configuration File.
+#
+#### Here's A list of Files and Folders while Also xplaining Their Usage in the code
 
-- openaiart.php
-This File Generates Artwork From Text Using OpenAI API
-
-- openaichat.php
-This File Generates Answers based on your text using OpenAI API.
+> assets/
+##### This Folder Contains Header File & Configuration File.
 
 
-This Code can be modified for personal usage and by doing so you may use it to create a personal chat bot, An AI Writer, An AI parisona or more fun things.
+`openaiart.php`
+##### This File Generates Artwork From Text Using OpenAI API
+
+
+`openaichat.php`
+##### This File Generates Answers based on your text using OpenAI API.
+
+#
+
+This Code can easily be modified and by doing so you may use it to create a personal chat bot, An AI Writer, An AI parisona or tons of more fun things.
